@@ -1,4 +1,4 @@
-import { Star } from "lucide-react";
+/**import { Star } from "lucide-react";
 
 import { RenderIf } from "@/components/common/shared";
 import { CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
@@ -32,4 +32,4 @@ export const ProjectRepositoryCard = ({ repository }: RepositoryCardProps) => (
 			</CardDescription>
 		</CardFooter>
 	</ProjectCard>
-);
+);**/
