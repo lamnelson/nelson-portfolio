@@ -18,7 +18,7 @@ export async function fetchWeatherForecast(): Promise<WeatherForecast | null> {
 		}
 
 		const data = (await response.json()) as WeatherForecast;
-		data.results.temperature = data.results.temperature;
+		
 		return data;
 	} catch (error) {
 		console.error("[Weather API]:", error instanceof Error ? error.message : "Unknown error occurred");
